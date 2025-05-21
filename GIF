@@ -2,7 +2,7 @@ Add-Type -AssemblyName System.Windows.Forms
 Add-Type -AssemblyName System.Drawing
 [System.Windows.Forms.Application]::EnableVisualStyles()
  
-$url = "https://media3.giphy.com/media/3ohzdQ1IynzclJldUQ/giphy.gif?ep=v1_gifs_search" # example GIF (replace with your own link)
+$url = "https://media3.giphy.com/media/NaboQwhxK3gMU/giphy.gif?ep=v1_gifs_search" # example GIF (replace with your own link)
 $gifPath = "$env:temp/g.gif"
 iwr -Uri $url -OutFile $gifPath
 $ErrorActionPreference = 'Stop'
